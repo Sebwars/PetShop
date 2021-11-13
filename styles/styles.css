@@ -1,0 +1,120 @@
+* { box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto'sans-serif;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(https://fonts.google.com/specimen/Roboto);
+}
+.master{
+    background-color: #F0A83E;
+    width: 1288px;
+    position: absolute;
+    z-index: 60;
+    align-items: center;
+    margin: 0;
+    padding: 18px;
+    border: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    width: 15;
+    height: 15;
+    color: white;
+    padding: 5px;
+    margin: 20;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.banner2 {
+    background-color: #F0A83E;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.menu1{
+    font-family: 'Roboto'sans-serif;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    margin-left: 3.5rem;
+    margin-bottom: 0;
+    height: 100%;
+    right: -30;
+    line-height: 2.5rem;
+    margin: 0;
+    list-style: none;
+    list-style-image: none;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+.img1{
+    background-attachment: fixed;
+}
+.idJs{
+    left: auto;
+    bottom: auto;
+    right: 6.25rem;
+    top: 4rem;
+    position: absolute;
+    height: 2.5rem;
+    z-index: 50;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+.primary{
+    position: relative;
+    height: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.primary1{
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: 'Roboto';
+    box-sizing: border-box;
+}
+.jsmenu{
+    color: white;
+    font-size: .75rem;
+    line-height: 1rem;
+    font-family: 'Roboto'sans-serif;
+    letter-spacing: .05em;
+    text-decoration: 0;
+    outline: 0;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+    list-style: none;
+    list-style-image: none;
+    
+}
